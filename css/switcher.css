@@ -1,0 +1,110 @@
+/* Common Colors to All Styles */
+/*e34910*//* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+#style-switcher {
+  background: #2d2d2d;
+  width: 168px;
+  position: fixed;
+  top: 196px;
+  z-index: 9999;
+  left: 0px;
+  border-radius: 0;
+}
+#style-switcher div {
+  padding: 6px 12px;
+}
+#style-switcher h2 {
+  color: #FFFFFF;
+  padding: 0;
+  font-size: 16px;
+  padding: 0 0 0 24px;
+  margin: 0;
+}
+#style-switcher h2 a {
+  background: #2d2d2d;
+  display: block;
+  height: 48px;
+  position: absolute;
+  right: -48px;
+  top: 0;
+  width: 48px;
+}
+#style-switcher h2 a span {
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+.colors {
+  padding-left: 7px;
+}
+.colors {
+  list-style: none;
+  margin: 0px 0px 10px 0px;
+  overflow: hidden;
+}
+.colors li {
+  float: left;
+  margin: 4px;
+}
+.colors li a {
+  display: block;
+  width: 36px;
+  height: 18px;
+  cursor: pointer;
+}
+.layout-style select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  margin: 0 0 0 -5px;
+  color: #666;
+  cursor: pointer;
+}
+#reset {
+  margin: 0 0 15px 2px;
+}
+#reset a {
+  color: #fff;
+  font-size: 12px;
+}
+.style1 {
+  background: #22c5ac;
+  border-right: solid 12px #cd4436;
+  border-left: solid 12px #3a5062;
+}
+.style2 {
+  background: #e67e22;
+  border-right: solid 12px #f39c12;
+  border-left: solid 12px #c0392b;
+}
+.style3 {
+  background: #b07cc6;
+  border-right: solid 12px #3498db;
+  border-left: solid 12px #8e44ad;
+}
+.style4 {
+  background: #45c17d;
+  border-right: solid 12px #a8b701;
+  border-left: solid 12px #1b5234;
+}
+.style5 {
+  background: #1a98fc;
+  border-right: solid 12px #e96a3b;
+  border-left: solid 12px #01467d;
+}
+.style6 {
+  background: #b48947;
+  border-right: solid 12px #e96a3b;
+  border-left: solid 12px #533f21;
+}
+.colors li a.active {
+  box-shadow: 0 0 0px 2px #666;
+}
+@media only screen and (max-width: 768px) {
+  #style-switcher {
+    display: none;
+  }
+}
